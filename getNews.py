@@ -75,7 +75,6 @@ def parse_detail_url(future):
 			print(news)
 			col.insert(news)
 			print('成功掺入一组数据'+str(news))
-	
 	loop.stop()
 
 get_urls()
